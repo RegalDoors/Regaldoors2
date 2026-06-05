@@ -1,0 +1,519 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Regal Doors | Garage Door Supplier & Repair Services</title>
+
+<meta name="description" content="Regal Doors provides professional garage door repair, opener repair, spring repair, cable repair, installation and commercial garage door services in Hesperia, CA.">
+<meta name="keywords" content="Garage Door Repair, Garage Door Supplier, Garage Door Installation, Commercial Garage Door Repair, Gate Opener Repair">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Montserrat',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+color:#111;
+background:#fff;
+}
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:rgba(0,0,0,.92);
+padding:15px 8%;
+z-index:999;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo img{
+height:55px;
+width:auto;
+border-radius:50%;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+nav ul li a{
+color:#fff;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+nav ul li a:hover{
+color:#d4af37;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url('https://static.tecnichenuove.it/serramentinews/2014/11/slateraleHSTHoermann-PM-1110-1.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+padding:0 8%;
+color:#fff;
+}
+
+.hero-content{
+max-width:750px;
+}
+
+.hero h1{
+font-size:72px;
+font-weight:800;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+line-height:1.8;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+background:#d4af37;
+color:#000;
+padding:15px 35px;
+text-decoration:none;
+font-weight:700;
+border-radius:5px;
+}
+
+.section{
+padding:100px 8%;
+}
+
+.title{
+text-align:center;
+margin-bottom:50px;
+}
+
+.title h2{
+font-size:48px;
+}
+
+.about-text{
+max-width:1000px;
+margin:auto;
+text-align:center;
+font-size:18px;
+line-height:1.9;
+}
+
+.dark{
+background:#111;
+color:#fff;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#fff;
+padding:35px;
+border-radius:8px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.dark .card{
+background:#1b1b1b;
+color:#fff;
+box-shadow:none;
+border:1px solid #333;
+}
+
+.testimonial{
+background:#f7f7f7;
+padding:30px;
+border-left:5px solid #d4af37;
+line-height:1.8;
+}
+
+.contact-box{
+text-align:center;
+}
+
+.contact-box p{
+margin:10px 0;
+font-size:18px;
+}
+
+iframe{
+width:100%;
+height:450px;
+border:none;
+}
+
+footer{
+background:#000;
+color:#fff;
+padding:80px 8% 20px;
+}
+
+.footer-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:40px;
+}
+
+.footer-col h3{
+margin-bottom:20px;
+}
+
+.footer-col p,
+.footer-col li{
+color:#ccc;
+line-height:1.8;
+}
+
+.footer-col ul{
+list-style:none;
+}
+
+.footer-col ul li{
+margin-bottom:10px;
+}
+
+.footer-btn{
+display:inline-block;
+margin-top:15px;
+padding:12px 25px;
+background:#d4af37;
+color:#000;
+text-decoration:none;
+font-weight:700;
+border-radius:5px;
+}
+
+.footer-bottom{
+border-top:1px solid #222;
+margin-top:40px;
+padding-top:20px;
+text-align:center;
+color:#888;
+}
+
+.sticky-call{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#d4af37;
+color:#000;
+padding:15px 25px;
+text-decoration:none;
+font-weight:700;
+border-radius:50px;
+z-index:999;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:42px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+nav ul{
+display:none;
+}
+
+.section{
+padding:80px 6%;
+}
+
+.title h2{
+font-size:34px;
+}
+
+.logo img{
+height:45px;
+}
+}
+</style>
+</head>
+<body>
+
+<a class="sticky-call" href="tel:9093267643">Call Now</a>
+
+<header>
+<nav>
+
+<div class="logo">
+<img src="https://lh4.googleusercontent.com/-7pUIJnwo-4k/AAAAAAAAAAI/AAAAAAAAAAA/xOE3lPzvgpE/s200-c-k-mo/photo.jpg" alt="Regal Doors Logo">
+</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#testimonials">Testimonials</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Garage Door Supplier</h1>
+
+<p>
+Professional garage door repair, installation, opener repair,
+spring replacement and commercial garage door services you can trust.
+Fast response, quality workmanship and dependable solutions.
+</p>
+
+<a href="tel:9093267643" class="btn">Get Free Estimate</a>
+
+</div>
+
+</section>
+
+<section id="about" class="section">
+
+<div class="title">
+<h2>About Regal Doors</h2>
+</div>
+
+<div class="about-text">
+
+Welcome to Regal Doors, your dependable garage door supplier in Hesperia, CA,
+delivering efficient solutions for both residential and commercial needs.
+From garage door repair, opener adjustment, and spring or cable fixes to custom
+door repair, replacement, commercial services, and gate opener repair,
+every service is handled with care. Call today for fast service and reliable results!
+
+</div>
+
+</section>
+
+<section class="section dark">
+
+<div class="title">
+<h2>Why Choose Us</h2>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Fast Response</h3>
+<p>Quick and reliable garage door service when you need it most.</p>
+</div>
+
+<div class="card">
+<h3>Professional Service</h3>
+<p>Experienced technicians delivering quality workmanship.</p>
+</div>
+
+<div class="card">
+<h3>Affordable Pricing</h3>
+<p>Competitive rates without compromising quality.</p>
+</div>
+
+<div class="card">
+<h3>Residential & Commercial</h3>
+<p>Complete garage door solutions for homes and businesses.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="services" class="section">
+
+<div class="title">
+<h2>Our Services</h2>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Garage Door Opener Repair</h3>
+</div>
+
+<div class="card">
+<h3>Garage Door Repair</h3>
+</div>
+
+<div class="card">
+<h3>Commercial Garage Door Repair</h3>
+</div>
+
+<div class="card">
+<h3>Garage Door Installation</h3>
+</div>
+
+<div class="card">
+<h3>Garage Door Replacement</h3>
+</div>
+
+<div class="card">
+<h3>Garage Door Spring Repair</h3>
+</div>
+
+<div class="card">
+<h3>Garage Door Cable Repair</h3>
+</div>
+
+<div class="card">
+<h3>Gate Opener Repair</h3>
+</div>
+
+</div>
+
+</section>
+
+<section id="testimonials" class="section dark">
+
+<div class="title">
+<h2>Customer Reviews</h2>
+</div>
+
+<div class="grid">
+
+<div class="testimonial">
+“Excellent service and quick response. My garage door was fixed the same day.”
+<br><br>
+<strong>— James R.</strong>
+</div>
+
+<div class="testimonial">
+“Professional team, fair pricing and outstanding workmanship.”
+<br><br>
+<strong>— Michael T.</strong>
+</div>
+
+<div class="testimonial">
+“Highly recommend Regal Doors for garage door repair and installation.”
+<br><br>
+<strong>— Sarah M.</strong>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="section">
+
+<div class="contact-box">
+
+<h2>Contact Us</h2>
+
+<br>
+
+<p>📞 (909) 326-7643</p>
+
+<p>📧 RegalDoorsLLC@gmail.com</p>
+
+<p>📍 10867 Pinon Ave, Hesperia, CA 92345</p>
+
+<br>
+
+<a href="tel:9093267643" class="btn">Call Today</a>
+
+</div>
+
+</section>
+
+<section>
+
+<iframe
+src="https://maps.google.com/maps?q=10867%20Pinon%20Ave%20Hesperia%20CA%2092345&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</section>
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-col">
+<h3>Regal Doors</h3>
+<p>
+Reliable garage door supplier and repair company serving residential
+and commercial customers throughout Hesperia, California.
+</p>
+</div>
+
+<div class="footer-col">
+<h3>Quick Links</h3>
+<ul>
+<li>About Us</li>
+<li>Services</li>
+<li>Testimonials</li>
+<li>Contact</li>
+</ul>
+</div>
+
+<div class="footer-col">
+<h3>Services</h3>
+<ul>
+<li>Garage Door Repair</li>
+<li>Garage Door Opener Repair</li>
+<li>Garage Door Installation</li>
+<li>Spring Repair</li>
+<li>Commercial Garage Door Repair</li>
+</ul>
+</div>
+
+<div class="footer-col">
+<h3>Contact Info</h3>
+<p>📞 (909) 326-7643</p>
+<p>📧 RegalDoorsLLC@gmail.com</p>
+<p>📍 10867 Pinon Ave, Hesperia, CA 92345</p>
+
+<a href="tel:9093267643" class="footer-btn">Call Now</a>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+© 2026 Regal Doors. All Rights Reserved.
+</div>
+
+</footer>
+
+</body>
+</html>
+```
